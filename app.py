@@ -5,6 +5,7 @@ import json
 app = Flask(__name__)
 appService = AppService();
 
+password = 'Jl.gBWcOKUcbs'
 
 @app.route('/')
 def home():
